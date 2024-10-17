@@ -1,0 +1,67 @@
+@import 'variables';
+@import 'mixin';
+
+
+.main {
+    width: 100vw;
+    overflow: hidden;
+    min-height: 100%;
+}
+
+.main__container {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    height: 100%;
+}
+.button {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    text-align: center;
+    margin-left: 100px;
+    box-shadow: none;
+
+
+}
+
+.main__content {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100%;
+    margin-bottom: 100px;
+    margin-right: 100px;
+  font-family: "Teko", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+    
+}
+
+.main__content h1{
+    color: $secondarycolor;
+    font-size: 8rem;
+    z-index: 2;
+    margin-right: 60px;
+    margin-bottom: 100px;
+}
+.main__content b{
+    z-index: 999;
+    color: $thirdcolor;
+    margin-left: 400px;    
+}
+.main__img--content {
+    height: 511.5;
+    width: 485;
+    z-index: 1;
+    overflow: hidden;
+    position: absolute;
+   
+}
+
+
